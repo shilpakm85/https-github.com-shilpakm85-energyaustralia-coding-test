@@ -1,0 +1,10 @@
+import festivepom from '../../Pageobjects/POM'
+const apidata= new festivepom()
+
+describe("festive events",()=>{
+    it("festive event for status code 200",()=>{
+        apidata.festival()
+
+    })
+}
+)
